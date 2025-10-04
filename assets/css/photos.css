@@ -1,0 +1,13 @@
+/* Contenedor principal de la sección */
+.photo-gallery { max-width: 1200px; margin: 24px auto; }
+.photo-gallery h1 { margin-bottom: 8px; }
+.photo-gallery p { margin-bottom: 16px; color:#555; }
+
+/* Grid usa Bootstrap (row/col) generado por JS */
+.gallery-grid { margin-top: 8px; }
+.gallery-grid .card { border: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 16px rgba(0,0,0,0.08); transition: transform .15s ease, box-shadow .15s ease; }
+.gallery-grid .card:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,0.12); }
+.gallery-grid .card-img-top { height: 200px; object-fit: cover; }
+.gallery-grid .card-body { padding: 10px 12px; }
+.gallery-grid .card-title { margin: 0 0 4px; font-weight: 600; }
+.gallery-grid .card-text { margin: 0; color:#666; }

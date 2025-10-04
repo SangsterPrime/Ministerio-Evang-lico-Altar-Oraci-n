@@ -1,0 +1,6 @@
+.video-list { margin-top: 8px; }
+.video-list .card { border: 0; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.08); }
+.video-list .card:hover { box-shadow: 0 10px 24px rgba(0,0,0,0.12); }
+.video-list .card-title { margin-bottom: 6px; font-weight: 600; }
+.video-list .card-text { color:#555; }
+.video-list .ratio video { border-radius: 8px; border:1px solid #e9ecef; }

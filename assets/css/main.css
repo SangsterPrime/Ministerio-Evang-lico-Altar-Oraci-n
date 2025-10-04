@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Fallback color */
+    background-color: #f4f4f4;
+    /* Fondo con imagen + velo más marcado para mejorar legibilidad */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../imgs/fondo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.site-nav {
+    margin: 20px 0;
+}
+
+.site-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.site-footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* utilidades */
+.container { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+.hero { 
+    text-align: center; 
+    padding: 40px 0; 
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+.hero h1, .hero p { text-shadow: 0 2px 6px rgba(0,0,0,0.5); }
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 16px; }
+/* Botón WhatsApp complementario a Bootstrap */
+.btn-wsp { background: #25D366 !important; color: #fff !important; border-color: #1ebe5b !important; }
+.btn-wsp:hover { background: #1ebe5b !important; }
+
+/* footer */
+.site-footer .social a { color: #fff; margin: 0 8px; text-decoration: none; }
+
+@media (max-width: 600px) {
+  .site-nav ul { padding: 0; }
+  .site-nav li { display: inline-block; margin: 0 8px; }
+}
+
+/* Botón flotante de WhatsApp */
+.fab-wsp {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #25D366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-size: 26px;
+    z-index: 1050;
+}
+.fab-wsp:hover { background:#1ebe5b; }
+.fab-wsp img { width: 28px; height: 28px; object-fit: contain; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.2)); }
+/* when using inline SVG instead of an img */
+.fab-wsp svg { width: 28px; height: 28px; display: block; }
+
+/* Navbar legible sobre fondo con blur */
+.navbar {
+    background-color: rgba(0,0,0,0.6) !important;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+.navbar .navbar-brand, .navbar .nav-link { color: #fff !important; }
+.navbar .nav-link:hover { color: #f1f1f1 !important; }
+
+/* Panel translúcido para encabezados de sección (legibilidad) */
+.section-hero {
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+.section-hero h1,
+.section-hero p { color: #fff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.5); margin: 0; }
+.section-hero h1 { margin-bottom: 6px; }

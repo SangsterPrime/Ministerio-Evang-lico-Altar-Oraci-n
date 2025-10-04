@@ -1,0 +1,32 @@
+{
+  "videos": [
+    {
+      "title": "Video 1",
+      "description": "Mensaje y actividades del ministerio.",
+      "url": "assets/videos/video1.mp4"
+    },
+    {
+      "title": "Video 2",
+      "description": "Testimonio y obra social.",
+      "url": "assets/videos/video2.mp4"
+    }
+  ],
+  "photos": [
+    { "title": "Imagen 1",  "description": "Galería", "url": "assets/imgs/imagen1.jpeg" },
+    { "title": "Imagen 2",  "description": "Galería", "url": "assets/imgs/imagen2.jpeg" },
+    { "title": "Imagen 3",  "description": "Galería", "url": "assets/imgs/imagen3.jpeg" },
+    { "title": "Imagen 4",  "description": "Galería", "url": "assets/imgs/imagen4.jpeg" },
+    { "title": "Imagen 5",  "description": "Galería", "url": "assets/imgs/imagen5.jpeg" },
+    { "title": "Imagen 6",  "description": "Galería", "url": "assets/imgs/imagen6.jpeg" },
+    { "title": "Imagen 7",  "description": "Galería", "url": "assets/imgs/imagen7.jpeg" },
+    { "title": "Imagen 8",  "description": "Galería", "url": "assets/imgs/imagen8.jpeg" },
+    { "title": "Imagen 9",  "description": "Galería", "url": "assets/imgs/imagen9.jpeg" },
+    { "title": "Imagen 10", "description": "Galería", "url": "assets/imgs/imagen10.jpeg" },
+    { "title": "Imagen 11", "description": "Galería", "url": "assets/imgs/imagen11.jpeg" },
+    { "title": "Imagen 12", "description": "Galería", "url": "assets/imgs/imagen12.jpeg" },
+    { "title": "Imagen 13", "description": "Galería", "url": "assets/imgs/imagen13.jpeg" },
+    { "title": "Imagen 14", "description": "Galería", "url": "assets/imgs/imagen14.jpeg" },
+    { "title": "Imagen 15", "description": "Galería", "url": "assets/imgs/imagen15.jpeg" },
+    { "title": "Imagen 16", "description": "Galería", "url": "assets/imgs/imagen16.jpeg" }
+  ]
+}
