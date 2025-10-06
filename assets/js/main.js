@@ -43,6 +43,38 @@
 	}
 })();
 
+// Ajusta enlaces del header según la base real (repo subruta o dominio)
+(function fixHeaderLinks() {
+  const header = document.getElementById('header');
+  if (!header) return;
+
+  const script = document.querySelector('script[src*="assets/js/main.js"]') || document.currentScript;
+  if (!script) return;
+
+  const scriptUrl = new URL(script.src, window.location.href);
+  const basePath = scriptUrl.pathname.replace(/\/assets\/js\/main\.js$/, '/');
+
+  const routes = {
+    home: 'index.html',
+    videos: 'pages/videos/',
+    photos: 'pages/photos/',
+    volunteer: 'pages/volunteer/'
+  };
+
+  const setLinks = () => {
+    header.querySelectorAll('a[data-route]').forEach(a => {
+      const r = a.getAttribute('data-route');
+      if (routes[r]) a.href = basePath + routes[r];
+    });
+  };
+
+  // Si el header se carga dinámicamente, esperamos a que exista contenido
+  if (header.children.length) setLinks();
+  else new MutationObserver((m, obs) => {
+    if (header.children.length) { setLinks(); obs.disconnect(); }
+  }).observe(header, { childList: true });
+})();
+
 // Helper para construir links de WhatsApp con mensaje prellenado
 window.buildWspLink = function(phone, text) {
 	const cleanPhone = phone.replace(/[^\d]/g, '');
