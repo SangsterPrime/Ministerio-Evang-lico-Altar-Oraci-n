@@ -9,6 +9,11 @@
       "title": "Video 2",
       "description": "Testimonio y obra social.",
       "url": "assets/videos/video2.mp4"
+    },
+    {
+      "title": "Video 3",
+      "description": "Testimonio de fe y apoyo a familias: oración, alimentos y contención.",
+      "url": "assets/videos/video3.mp4"
     }
   ],
   "photos": [
