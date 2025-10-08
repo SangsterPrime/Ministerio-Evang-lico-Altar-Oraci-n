@@ -3,35 +3,35 @@
     {
       "title": "Video 1",
       "description": "Mensaje y actividades del ministerio.",
-      "url": "assets/videos/video1.mp4"
+      "url": "assets/videos/video1.webm"
     },
     {
       "title": "Video 2",
       "description": "Testimonio y obra social.",
-      "url": "assets/videos/video2.mp4"
+      "url": "assets/videos/video2.webm"
     },
     {
       "title": "Video 3",
       "description": "Testimonio de fe y apoyo a familias: oración, alimentos y contención.",
-      "url": "assets/videos/video3.mp4"
+      "url": "assets/videos/video3.webm"
     }
   ],
   "photos": [
-    { "title": "Imagen 1",  "description": "Galería", "url": "assets/imgs/imagen1.jpeg" },
-    { "title": "Imagen 2",  "description": "Galería", "url": "assets/imgs/imagen2.jpeg" },
-    { "title": "Imagen 3",  "description": "Galería", "url": "assets/imgs/imagen3.jpeg" },
-    { "title": "Imagen 4",  "description": "Galería", "url": "assets/imgs/imagen4.jpeg" },
-    { "title": "Imagen 5",  "description": "Galería", "url": "assets/imgs/imagen5.jpeg" },
-    { "title": "Imagen 6",  "description": "Galería", "url": "assets/imgs/imagen6.jpeg" },
-    { "title": "Imagen 7",  "description": "Galería", "url": "assets/imgs/imagen7.jpeg" },
-    { "title": "Imagen 8",  "description": "Galería", "url": "assets/imgs/imagen8.jpeg" },
-    { "title": "Imagen 9",  "description": "Galería", "url": "assets/imgs/imagen9.jpeg" },
-    { "title": "Imagen 10", "description": "Galería", "url": "assets/imgs/imagen10.jpeg" },
-    { "title": "Imagen 11", "description": "Galería", "url": "assets/imgs/imagen11.jpeg" },
-    { "title": "Imagen 12", "description": "Galería", "url": "assets/imgs/imagen12.jpeg" },
-    { "title": "Imagen 13", "description": "Galería", "url": "assets/imgs/imagen13.jpeg" },
-    { "title": "Imagen 14", "description": "Galería", "url": "assets/imgs/imagen14.jpeg" },
-    { "title": "Imagen 15", "description": "Galería", "url": "assets/imgs/imagen15.jpeg" },
-    { "title": "Imagen 16", "description": "Galería", "url": "assets/imgs/imagen16.jpeg" }
+    { "title": "Imagen 1",  "description": "Galería", "url": "assets/imgs/imagen1.webp" },
+    { "title": "Imagen 2",  "description": "Galería", "url": "assets/imgs/imagen2.webp" },
+    { "title": "Imagen 3",  "description": "Galería", "url": "assets/imgs/imagen3.webp" },
+    { "title": "Imagen 4",  "description": "Galería", "url": "assets/imgs/imagen4.webp" },
+    { "title": "Imagen 5",  "description": "Galería", "url": "assets/imgs/imagen5.webp" },
+    { "title": "Imagen 6",  "description": "Galería", "url": "assets/imgs/imagen6.webp" },
+    { "title": "Imagen 7",  "description": "Galería", "url": "assets/imgs/imagen7.webp" },
+    { "title": "Imagen 8",  "description": "Galería", "url": "assets/imgs/imagen8.webp" },
+    { "title": "Imagen 9",  "description": "Galería", "url": "assets/imgs/imagen9.webp" },
+    { "title": "Imagen 10", "description": "Galería", "url": "assets/imgs/imagen10.webp" },
+    { "title": "Imagen 11", "description": "Galería", "url": "assets/imgs/imagen11.webp" },
+    { "title": "Imagen 12", "description": "Galería", "url": "assets/imgs/imagen12.webp" },
+    { "title": "Imagen 13", "description": "Galería", "url": "assets/imgs/imagen13.webp" },
+    { "title": "Imagen 14", "description": "Galería", "url": "assets/imgs/imagen14.webp" },
+    { "title": "Imagen 15", "description": "Galería", "url": "assets/imgs/imagen15.webp" },
+    { "title": "Imagen 16", "description": "Galería", "url": "assets/imgs/imagen16.webp" }
   ]
 }
