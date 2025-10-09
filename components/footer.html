@@ -1,16 +1,30 @@
 <footer class="site-footer">
-    <div class="container">
-        
-    <p>Contáctanos: <a href="mailto:joseluisherreranovoa0@gmail.com">joseluisherreranovoa0@gmail.com</a></p>
-
-        <!-- CTA de WhatsApp removidas del footer para evitar duplicación con la portada -->
-
-        <div class="social">
-            <a href="https://www.facebook.com/share/1ZsJAJBP9m/" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
-            <a href="https://youtube.com/@altardeoracionsitioweb?si=xl0fH6Ev-krGpFQY" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
-            <a href="https://wa.me/56959484424" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
-            <a href="https://www.instagram.com/jose7501496?igsh=MWptZmxpemtyOGJxbw==" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+    <div class="container d-flex flex-column align-items-center">
+        <!-- Botones sociales con iconos Font Awesome (CSS se inyecta desde main.js) -->
+        <div class="social order-1 mb-2">
+            <a href="https://www.facebook.com/share/1ZsJAJBP9m/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+                <i class="fa-brands fa-facebook"></i><span class="visually-hidden">Facebook</span>
+            </a>
+            <a href="https://youtube.com/@altardeoracionsitioweb?si=xl0fH6Ev-krGpFQY" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">
+                <i class="fa-brands fa-youtube"></i><span class="visually-hidden">YouTube</span>
+            </a>
+            <a href="https://wa.me/56959484424" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i><span class="visually-hidden">WhatsApp</span>
+            </a>
+            <a href="https://www.instagram.com/jose7501496?igsh=MWptZmxpemtyOGJxbw==" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+                <i class="fa-brands fa-instagram"></i><span class="visually-hidden">Instagram</span>
+            </a>
         </div>
-        <p>&copy; 2025 Ministerio Evangelístico Altar Oración. Todos los derechos reservados.</p>
+        <p class="order-2 mb-2">Contáctanos: <a href="mailto:joseluisherreranovoa0@gmail.com">joseluisherreranovoa0@gmail.com</a></p>
+    <p class="order-3 m-0 small">&copy; <span data-year>2025</span> Ministerio Evangelístico Altar Oración. Todos los derechos reservados.</p>
     </div>
 </footer>
+
+<style>
+    .site-footer .social a[aria-label="Facebook"] { color:#1877F2; }
+    .site-footer .social a[aria-label="YouTube"] { color:#FF0000; }
+    .site-footer .social a[aria-label="Instagram"] { color:#E1306C; }
+    .site-footer .social a[aria-label="WhatsApp"] { color:#25D366; }
+    .site-footer .social a { opacity:.85; }
+    .site-footer .social a:hover { opacity:1; color:inherit; }
+</style>

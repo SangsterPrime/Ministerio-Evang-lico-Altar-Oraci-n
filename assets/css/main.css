@@ -68,6 +68,8 @@ main {
 
 /* footer */
 .site-footer .social a { color: #fff; margin: 0 8px; text-decoration: none; }
+.site-footer .social { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 18px; font-size: 1.7rem; margin-top: 12px; }
+.site-footer .social a:hover { color: #25D366; transition: color .25s ease; }
 
 @media (max-width: 600px) {
   .site-nav ul { padding: 0; }
