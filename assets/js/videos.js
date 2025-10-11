@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!videoList) { return; }
 
     // Desde /pages/videos/ -> data vivirá en ../../data/media.json
-        fetch('../../data/media.json')
+        fetch(`../../data/media.json?v=20251010a`)
             .then(response => response.json())
             .then(data => {
                 const row = document.createElement('div');

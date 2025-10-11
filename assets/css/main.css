@@ -119,3 +119,25 @@ main {
 .section-hero h1,
 .section-hero p { color: #fff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.5); margin: 0; }
 .section-hero h1 { margin-bottom: 6px; }
+
+/* Banda de videos con scroll horizontal */
+.video-band { position: relative; }
+.video-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: min(85vw, 560px);
+    gap: 16px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+}
+.video-scroller::-webkit-scrollbar { height: 10px; }
+.video-scroller::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.3); border-radius: 8px; }
+.video-card { scroll-snap-align: start; }
+.video-card .ratio { background: rgba(0,0,0,0.4); border-radius: 12px; overflow: hidden; }
+.video-card video { display: block; }
+
+@media (min-width: 992px) {
+    .video-scroller { grid-auto-columns: 520px; }
+}
