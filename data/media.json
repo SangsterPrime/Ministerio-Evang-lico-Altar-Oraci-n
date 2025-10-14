@@ -19,6 +19,11 @@
       "title": "Video 4",
       "description": "Nuevo testimonio y servicio a la comunidad.",
       "url": "assets/videos/video4.webm"
+    },
+    {
+      "title": "Video 5",
+      "description": "Mensaje de esperanza y servicio comunitario.",
+      "url": "assets/videos/video5.webm"
     }
   ],
   "photos": [
