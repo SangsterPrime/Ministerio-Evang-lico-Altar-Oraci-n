@@ -24,6 +24,16 @@
       "title": "Video 5",
       "description": "Mensaje de esperanza y servicio comunitario.",
       "url": "assets/videos/video5.webm"
+    },
+    {
+      "title": "Video 6",
+      "description": "Servicio de adoración y mensaje de esperanza.",
+      "url": "assets/videos/video6.webm"
+    },
+    {
+      "title": "Video 7",
+      "description": "Jornada de oración y apoyo a familias.",
+      "url": "assets/videos/video7.webm"
     }
   ],
   "photos": [
